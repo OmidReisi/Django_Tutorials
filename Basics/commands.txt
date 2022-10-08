@@ -1,0 +1,16 @@
+django-admin     // run this command in terminal to show a list of sub commands for django
+
+django-admin <sub command>      //to execute the sub commands
+
+
+django-admin startproject <project name>       //to start a django project
+
+//to run a django project we have to use the command below on the manage.py file (from the same directory in the command line)
+
+python manage.py runserver      //run a django project
+
+//if the DEBUG mode is ON then if we make changes to the code it should automatically update the server while it's running
+
+//the concept behind django is the you have your main project the you create with the startproject sub command and you can add different apps to your project (e.g. a blog_app or a store_app)
+
+python manage.py startapp <app name>        //add a app to your project
