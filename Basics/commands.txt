@@ -14,3 +14,10 @@ python manage.py runserver      //run a django project
 //the concept behind django is the you have your main project the you create with the startproject sub command and you can add different apps to your project (e.g. a blog_app or a store_app)
 
 python manage.py startapp <app name>        //add a app to your project
+
+
+//in order to use html templates for our HttpResponse instead of strings we need to create the following folder hierarchy for each app in the project
+
+//in the root level of each app we create <templates/"app-name"> folders and place our html templates in them
+
+//in order to use our html template we need to copy the name of the class from our apps.py file from the app and place it in the "INSTALLED_APPS" section of the settings.py in our project (for example add "blog.apps.BlogConfig" to the settings.py file) 
