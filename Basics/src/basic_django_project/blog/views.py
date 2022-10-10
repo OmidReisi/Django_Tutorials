@@ -1,5 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+
+# now that we're using html templates we don't need to import HttpResponse
+# from django.http import HttpResponse
 
 # Create your views here.
 
